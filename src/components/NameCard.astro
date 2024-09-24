@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+import profile from "@/images/profile/profile.webp";
+import { SITE } from "@/consts";
+---
+
+<div class="flex mb-8 flex-row">
+  <Image
+    class="animate my-auto h-auto w-16 rounded-full"
+    src={profile}
+    alt=""
+  />
+  <div class="mx-4 content-center">
+    <h1 class="animate text-3xl font-semibold text-black dark:text-white">
+      {SITE.NAME}
+    </h1>
+    <h2 class="animate">Software Developer</h2>
+  </div>
+</div>
