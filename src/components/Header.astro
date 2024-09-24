@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import Logo from "./public/logo/Logo.svg";
+// import Logo from "./public/logo/Logo.svg";
 import Container from "@/components/Container.astro";
 import Link from "@/components/Link.astro";
 import { SITE } from "@/consts";
@@ -11,15 +11,6 @@ import { SITE } from "@/consts";
     <div class="flex flex-wrap items-center gap-y-2 justify-between">
       <Link href="/" underline={false}>
         <!-- Left side -->
-        <Image
-          class="dark:invert"
-          src={Logo}
-          alt=""
-          media="(prefers-color-scheme: light)"
-          inferSize={true}
-          decoding="async"
-          loading="lazy"
-        />
         <!-- Right side -->
       </Link>
       <nav class="flex gap-1 text-xl">
