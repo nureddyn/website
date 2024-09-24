@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 import react from '@astrojs/react';
 
 export default defineConfig({
-  site: "https://nureddyn.dev",
+  site: "https://www.nureddyn.dev",
   integrations: [
     mdx(),
     
