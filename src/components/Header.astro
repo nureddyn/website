@@ -1,6 +1,5 @@
 ---
-import { Image } from "astro:assets";
-// import Logo from "./public/logo/Logo.svg";
+import { Icon } from "astro-icon/components";
 import Container from "@/components/Container.astro";
 import Link from "@/components/Link.astro";
 import { SITE } from "@/consts";
@@ -11,6 +10,7 @@ import { SITE } from "@/consts";
     <div class="flex flex-wrap items-center gap-y-2 justify-between">
       <Link href="/" underline={false}>
         <!-- Left side -->
+        <Icon class="dark:invert text-xl" name="logo" title="Nureddyn S. Ballout" />
         <!-- Right side -->
       </Link>
       <nav class="flex gap-1 text-xl">
