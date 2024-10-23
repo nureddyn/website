@@ -9,8 +9,8 @@ export default {
   theme: {
   	extend: {
   		fontFamily: {
-  			sans: ["Oswald", ...defaultTheme.fontFamily.sans],
-  			serif: ["EB Garamond", ...defaultTheme.fontFamily.serif],
+  			sans: ["Oswald Variable", ...defaultTheme.fontFamily.sans],
+  			serif: ["EB Garamond Variable", ...defaultTheme.fontFamily.serif],
   		},
   	}
   },
