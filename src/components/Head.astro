@@ -16,10 +16,8 @@ interface Props {
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
-const { title, description, favicon = "/light-mode-favicon.svg" } = Astro.props;
+const { title, description, favicon = "/dark-mode-favicon.svg" } = Astro.props;
 ---
-
-<!-- commit -->
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
