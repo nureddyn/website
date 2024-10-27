@@ -76,6 +76,7 @@ import { SITE, HOME, SOCIALS } from "@/consts";
         {
           SOCIALS.map((SOCIAL) => (
             <li class="flex gap-x-2 text-nowrap">
+              {"•"}
               <Link
                 href={SOCIAL.HREF}
                 external
@@ -83,7 +84,6 @@ import { SITE, HOME, SOCIALS } from "@/consts";
               >
                 {SOCIAL.NAME}
               </Link>
-              {"•"}
             </li>
           ))
         }
